@@ -2,8 +2,8 @@ Source: debathena-ntp-config
 Section: debathena-config/net
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, ntp
-Standards-Version: 3.8.0
+Build-Depends: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~), ntp
+Standards-Version: 3.9.3
 
 Package: debathena-ntp-config
 Architecture: all
