@@ -1,3 +1,10 @@
+uoitsci-ntp-config (2.0) unstable; urgency=low
+
+  * Repackaged debathena-ntp-config
+  * Changed servers to campus NTP servers
+
+ -- Richard Drake <richard.drake@uoit.ca>  Thu, 04 Dec 2014 15:53:12 -0500
+
 debathena-ntp-config (1.5) unstable; urgency=low
 
   [ Jonathan Reed ]

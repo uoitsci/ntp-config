@@ -1,15 +1,15 @@
-Source: debathena-ntp-config
-Section: debathena-config/net
+Source: uoitsci-ntp-config
+Section: uoitsci-config/net
 Priority: extra
-Maintainer: Debathena Project <debathena@mit.edu>
+Maintainer: Richard Drake <richard.drake@uoit.ca>
 Build-Depends: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~), ntp
 Standards-Version: 3.9.3
 
-Package: debathena-ntp-config
+Package: uoitsci-ntp-config
 Architecture: all
 Depends: ntp, ${misc:Depends}
 Recommends: debathena-apparmor-config
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Configuration for Athena 10 ntp installs.
- Tweaks the configuration of ntp to look to time.mit.edu.
+ Tweaks the configuration of ntp to look to UOIT campus NTP servers.

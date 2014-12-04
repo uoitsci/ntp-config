@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-DEB_DIVERT_EXTENSION = .debathena
-DEB_TRANSFORM_FILES_debathena-ntp-config += \
-	/etc/ntp.conf.debathena
+DEB_DIVERT_EXTENSION = .uoitsci
+DEB_TRANSFORM_FILES_uoitsci-ntp-config += \
+	/etc/ntp.conf.uoitsci
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/rules/config-package.mk

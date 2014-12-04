@@ -1,4 +1,4 @@
 #!/usr/bin/perl -0p
 s/^server .*$/###SERVER/m or die;
 s/^server .*$//mg;
-s/###SERVER/server TIME.MIT.EDU/ or die;
+s/###SERVER/server click.dc-uoit.net\nserver clock.dc-uoit.net/ or die;
