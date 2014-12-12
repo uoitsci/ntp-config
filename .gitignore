@@ -1,0 +1,7 @@
+*.swp
+debian/files
+debian/uoitsci-ntp-config/
+debian/transform_file_copies/
+*.debhelper.log
+*.debhelper
+*.substvars
